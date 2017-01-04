@@ -1,34 +1,22 @@
 ---
-layout: workshop      # DON'T CHANGE THIS.
-root: .               # DON'T CHANGE THIS EITHER.  (THANK YOU.)
-carpentry: "FIXME"    # what kind of Carpentry (must be either "dc" or "swc")
-venue: "FIXME"        # brief name of host site without address (e.g., "Euphoric State University")
-address: "FIXME"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
-country: "FIXME"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
-language: "FIXME"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
-latlng: "FIXME"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
-humandate: "FIXME"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "FIXME"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: FIXME      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: FIXME        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["FIXME"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["FIXME"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-contact: "FIXME"      # contact email address for host, lead instructor, or whoever else is handling questions
-etherpad:             # optional: URL for the workshop Etherpad if there is one
-eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+layout: workshop
+root: .
+carpentry: "swc"
+venue: "DOE Exascale Computing Project"
+address: "Online"
+country: "us"
+language: "en"
+latlng: "-48.876667,-123.393333"
+humandate: "Jan 19-20, 2017"
+humantime: "09:30-16:30"
+startdate: 2017-01-19
+enddate: 2017-01-20
+instructor: ["Greg Wilson"]
+helper: []
+contact: "gvwilson@software-carpetry.org"
+etherpad:
+eventbrite:
 ---
-
-<!-- See instructions in the comments below for how to edit specific sections of this workshop template. -->
-
-<!--
-  HEADER
-
-  Edit the values in the block above to be appropriate for your workshop.
-  If the value is not 'true', 'false', 'null', or a number, please use
-  double quotation marks around the value, unless specified otherwise.
-  And run 'tools/check' *before* committing to make sure that changes are good.
--->
-
 <!--
   EVENTBRITE
 
@@ -203,35 +191,35 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   <div class="col-md-6">
     <h3>Day 1</h3>
     <table class="table table-striped">
-      <tr> <td>Day 1</td> <td>09:00</td> <td>Welcome</td> </tr>
-      <tr> <td>     </td> <td>09:10</td> <td>Introduction</td> </tr>
-      <tr> <td>     </td> <td>09:40</td> <td>Novices and Formative Assessment</td> </tr>
-      <tr> <td>     </td> <td>10:40</td> <td>Morning Coffee</td> </tr>
-      <tr> <td>     </td> <td>10:55</td> <td>Teaching as a Performance Art</td> </tr>
-      <tr> <td>     </td> <td>11:55</td> <td>Morning Wrap-Up</td> </tr>
-      <tr> <td>     </td> <td>12:10</td> <td>Lunch</td> </tr>
-      <tr> <td>     </td> <td>13:10</td> <td>Expertise and Memory</td> </tr>
-      <tr> <td>     </td> <td>14:25</td> <td>Afternoon Coffee</td> </tr>
-      <tr> <td>     </td> <td>14:40</td> <td>Performance Revised</td> </tr>
-      <tr> <td>     </td> <td>15:25</td> <td>Cognitive Load</td> </tr>
-      <tr> <td>     </td> <td>16:05</td> <td>Afternoon Wrap-Up</td> </tr>
-      <tr> <td>     </td> <td>16:20</td> <td>Finish</td> </tr>
+      <tr> <td>Day 1</td> <td>09:30</td> <td>Welcome</td> </tr>
+      <tr> <td>     </td> <td>09:40</td> <td>Introduction</td> </tr>
+      <tr> <td>     </td> <td>10:10</td> <td>Novices and Formative Assessment</td> </tr>
+      <tr> <td>     </td> <td>11:10</td> <td>Morning Coffee</td> </tr>
+      <tr> <td>     </td> <td>11:25</td> <td>Teaching as a Performance Art</td> </tr>
+      <tr> <td>     </td> <td>12:00</td> <td>Morning Wrap-Up</td> </tr>
+      <tr> <td>     </td> <td>12:15</td> <td>Lunch</td> </tr>
+      <tr> <td>     </td> <td>13:00</td> <td>Expertise and Memory</td> </tr>
+      <tr> <td>     </td> <td>14:15</td> <td>Afternoon Coffee</td> </tr>
+      <tr> <td>     </td> <td>14:30</td> <td>Performance Revised</td> </tr>
+      <tr> <td>     </td> <td>15:30</td> <td>Cognitive Load</td> </tr>
+      <tr> <td>     </td> <td>16:15</td> <td>Afternoon Wrap-Up</td> </tr>
+      <tr> <td>     </td> <td>16:30</td> <td>Finish</td> </tr>
     </table>
   </div>
   <div class="col-md-6">
     <h3>Day 2</h3>
     <table class="table table-striped">
-      <tr> <td>Day 2</td> <td>09:00</td> <td>Live Coding</td> </tr>
-      <tr> <td>     </td> <td>10:15</td> <td>Morning Coffee</td> </tr>
-      <tr> <td>     </td> <td>10:30</td> <td>The Carpentries</td> </tr>
-      <tr> <td>     </td> <td>11:30</td> <td>Carpentry Teaching Practices</td> </tr>
-      <tr> <td>     </td> <td>12:00</td> <td>Morning Wrap-Up</td> </tr>
-      <tr> <td>     </td> <td>12:15</td> <td>Lunch</td> </tr>
+      <tr> <td>Day 2</td> <td>09:30</td> <td>Live Coding</td> </tr>
+      <tr> <td>     </td> <td>10:45</td> <td>Morning Coffee</td> </tr>
+      <tr> <td>     </td> <td>11:00</td> <td>The Carpentries</td> </tr>
+      <tr> <td>     </td> <td>12:00</td> <td>Carpentry Teaching Practices</td> </tr>
+      <tr> <td>     </td> <td>12:15</td> <td>Morning Wrap-Up</td> </tr>
+      <tr> <td>     </td> <td>12:30</td> <td>Lunch</td> </tr>
       <tr> <td>     </td> <td>13:15</td> <td>Motivation and Demotivation</td> </tr>
-      <tr> <td>     </td> <td>14:00</td> <td>Lessons and Objectives</td> </tr>
-      <tr> <td>     </td> <td>15:00</td> <td>Afternoon Coffee</td> </tr>
-      <tr> <td>     </td> <td>15:15</td> <td>Afternoon Wrap-Up</td> </tr>
-      <tr> <td>     </td> <td>16:00</td> <td>Finish</td> </tr>
+      <tr> <td>     </td> <td>14:30</td> <td>Lessons and Objectives</td> </tr>
+      <tr> <td>     </td> <td>15:45</td> <td>Afternoon Coffee</td> </tr>
+      <tr> <td>     </td> <td>16:00</td> <td>Final Wrap-Up</td> </tr>
+      <tr> <td>     </td> <td>16:30</td> <td>Finish</td> </tr>
     </table>
   </div>
 </div>
